@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+     --darkblue:#1D2C3C;
+     --lightblue:rgba(17, 121, 191, 1);
+     --lighterblue:rgba(84, 139, 197, 1);
+     --teal:rgba(3, 142, 125, 1);
+
+}
+
+/* -------------styling the nav bar---->>> */
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #eef0f1;
+}
+
+body main{
+padding: 130px;
+padding-top: 40px;
+padding-bottom: 40px;
+
+}
+
+body nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    
+}
+body nav  .menu {
+    padding-top: 10px;
+}
+body nav .menu a{
+    text-decoration: none;
+    color: var(--darkblue);
+    font-size: 0.9em;
+    margin: 20px;
+ 
+}
+body nav .menu .box{
+    border: 2px solid var(--darkblue);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin-left: 0;
+    
+}
+body .hr_one{
+    padding-left: 30px;
+    padding-right: 40px;
+    color: gray;
+    opacity: 0.1;
+}
+
+/* ----------------styling check_Out basic_info-------------- */
+body main{
+    display: flex;
+
+}
+.check_out{
+    width: 892px;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+
+body main .check_out h1{
+    font-weight: 400;
+    color: var(--darkblue);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}  
+
+body main .check_out .hr_two{
+    color: gray;
+    opacity: 0.1;
+}
+
+.basic_info #first_p{
+    color: var(--darkblue);
+    font-size: 1.1em;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.basic_info #first_p::before{
+    content: "1";
+    display: inline-block;
+    color: var(--lighterblue);
+    border: 2px solid var(--lighterblue);
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-right:10px ;
+
+}
+.basic_info .flex_this{
+    display: flex;
+    width: 580px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.basic_info .flex_this .second_n{
+    margin-right: 35px;
+}
+.basic_info .mail{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+.basic_info .flex_this label, .mail label{
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--darkblue);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.basic_info .flex_this label p , .mail label p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.basic_info .flex_this input{
+    padding: 10px;
+    width: 227px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+}
+.basic_info .mail input{
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+
+}
+body main .check_out .hr_three{
+    color: gray;
+    opacity: 0.1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* ------------styling check_out payment_info----- */
+.payment_info #second_p{
+    color: var(--darkblue);
+    font-size: 1.1em;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.payment_info #second_p::before{
+    content: "2";
+    display: inline-block;
+    color: var(--lighterblue);
+    border: 2px solid var(--lighterblue);
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-right:10px ;
+
+}
+.payment_info .credit_c{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.payment_info .credit_c label{
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--darkblue);
+    
+    
+}
+.payment_info .credit_c label p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.payment_info .credit_c input{
+    width: 483px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+
+
+}
+form .hr_four{
+    color: gray;
+    opacity: 0.1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+form .btn1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+form .btn1 button{
+    width: 483px;
+    height: 52px;
+    background-color: var(--teal);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+main .check_out .support{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;  
+    
+}
+main .check_out .support img{
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+main .check_out .support span{
+    font-weight: 100;
+}
+main .check_out .support span .contact{
+    text-decoration: underline;
+
+}
+main .check_out .p_by_stripe{
+    margin-left: 210px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+/* ---------------styling main .free_lance----------------> */
+
+
+body main .free_lance{
+    width: 312px;
+    background-color: rgba(17, 121, 191, 1);
+    padding: 40px;
+    padding-top: 25px;
+    border-radius: 0 10px 10px 0;
+}
+body main .free_lance p{
+    color: white;
+}
+body main .free_lance .sec1 p:first-of-type{
+    font-size:1.1em; 
+    margin-bottom: 10px;
+    /* margin-top: 20px; */
+}
+body main .free_lance .sec1 p span{
+    font-size: 2.9em;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 0;
+}
+body main .free_lance .sec1 .sub1{
+    display: flex;
+}
+body main .free_lance .sec1 .sub1 i{
+    margin-top: 15px;
+    margin-right: 5px;
+    color: white;
+}
+body main .free_lance .sec1 p:nth-child(3){
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 35px;
+    
+}
+body main .free_lance .sec2{
+    margin-bottom: 35px;
+}
+body main .free_lance .sec2 p{
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 1.1em;
+}
+body main .free_lance .sec2 i{
+    font-weight: 100;
+    font-size: 1em;
+    margin-right: 8px;
+}
+body main .free_lance .sec3{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+body main .free_lance .sec3 span{
+    font-weight: 500;
+}
+
+body main .free_lance .sec3 p:nth-child(2){
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+body main .free_lance .hr_five{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body main .free_lance .hr_five hr{
+    color: white;
+    opacity: 0.4;
+}
+body main .free_lance .sec4{
+    font-weight: 300;
+    line-height: 1.5;
+}
+body main .free_lance .sec4 span{
+    font-weight: 500;
+}
+body main .free_lance .sec4 #flex_this{
+    display: flex;
+    margin-top: 25px;
+}
+body main .free_lance .sec4 #flex_this img{
+    border-radius: 50%;
+    margin-right: 8px;
+}
+body main .free_lance .sec4 #flex_this p{
+    margin-top: 7px;
+    font-weight: 500;
+}
+body footer{
+    text-align: center;
+    font-weight: 100;
+}
+body footer a{
+    text-decoration: none;
+    padding-bottom: 40px;
+}
+
+
+
+
